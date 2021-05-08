@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from visitantes.forms import VisitanteForm
 
 def registrar_visitante(request):
@@ -13,6 +13,8 @@ def registrar_visitante(request):
 
             visitante.registrado_por = request.user.porteiro
             visitante.save()
+            
+            return redirect("index")
 
     context = {
         "nome_pagina" : "Registrar visitante",
