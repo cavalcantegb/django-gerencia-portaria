@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load widget_tweaks %}
+
 {% block conteudo %}
 
 <div class="container">
@@ -12,8 +14,23 @@
                                 <h4 class="mb-3 text-primary">
                                     Formulário para registro de novo visitante
                                 </h4>
-                    
-                                {{ form }}
+
+                                <p class="mb-5 ml-1">
+                                    <small>
+                                        O asterisco (*) indica que o campo é obrigatório
+                                    </small>
+                                </p>
+
+                                <form method="post">
+                                    {% csrf_token %}
+
+                                    {% for field in form %}
+                                    <div class="form-group col-md-12">
+                                        <label>{{ field.label }} {% if field.field.required %} * {% endif %} </label>
+                                        {% render_field field placeholder=field.label class="form-control" %}
+                                    </div>
+                                    {% endfor %}
+                                </form>
                             </div>
                         </div>
 </div>
