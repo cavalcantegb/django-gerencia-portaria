@@ -1,4 +1,4 @@
-# Reception Systems to Buildings and Condos
+# Guest Control Systems to Buildings and Condos
 
 This repository contains my follow through the code from ['Django Framework na Prática'](https://www.udemy.com/course/djangoframeworknapratica) by ['Thiago Brasil'](https://github.com/tchaguitos)
 
