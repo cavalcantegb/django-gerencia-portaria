@@ -28,9 +28,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-sys.path.append(
-    os.path.join(BASE_DIR, "apps")
-)
+# sys.path.append(
+#     os.path.join(BASE_DIR, "apps")
+# )
+
+PROJECT_ROOT = os.path.dirname(__file__)
+sys.path.insert(0, os.path.join(PROJECT_ROOT, 'apps'))
 
 # Application definition
 
@@ -50,9 +53,9 @@ INSTALLED_APPS += [
 
 # My applications
 INSTALLED_APPS += [
-    'usuarios',
-    'porteiros',
-    'visitantes',
+    'apps.usuarios',
+    'apps.porteiros',
+    'apps.visitantes',
 ]
 
 MIDDLEWARE = [

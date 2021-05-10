@@ -5,8 +5,8 @@ from django.shortcuts import (
 
 from django.http import HttpResponseNotAllowed
 
-from visitantes.models import Visitante
-from visitantes.forms import (
+from apps.visitantes.models import Visitante
+from apps.visitantes.forms import (
     VisitanteForm, AutorizaVisitanteForm,
 )
 

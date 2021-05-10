@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from visitantes.models import Visitante
+from apps.visitantes.models import Visitante
 def index(request):
 
     todos_visitantes = Visitante.objects.all()
