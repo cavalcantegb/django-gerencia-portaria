@@ -1,6 +1,8 @@
-# Django File (and Image) Uploads
+# Reception Systems to Buildings and Condos
 
 This repository contains my follow through the code from ['Django Framework na Prática'](https://www.udemy.com/course/djangoframeworknapratica) by ['Thiago Brasil'](https://github.com/tchaguitos)
+
+This system is a guest control system meant to receptionist of condos or any other type of buildings.
 
 --
 If you are searching for a Python / Django developer let's talk.  
