@@ -1,4 +1,4 @@
-![example workflow](https://github.com/cavalcantegb/django-gerencia-portaria/actions/workflows/django.yml)
+![example workflow](https://github.com/cavalcantegb/django-gerencia-portaria/actions/workflows/django.yml/badge.svg)
 
 
 # Guest Control Systems to Buildings and Condos
