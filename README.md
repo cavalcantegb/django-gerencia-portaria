@@ -1,3 +1,6 @@
+![example workflow](https://github.com/cavalcantegb/django-gerencia-portaria/actions/workflows/django.yml)
+
+
 # Guest Control Systems to Buildings and Condos
 
 This repository contains my follow through the code from ['Django Framework na Prática'](https://www.udemy.com/course/djangoframeworknapratica) by ['Thiago Brasil'](https://github.com/tchaguitos)
